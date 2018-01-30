@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+
+body {
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+	overflow-x: hidden;
+}
+
+#logo {
+	font-family: "Futura";
+	letter-spacing: 20px;
+	display: inline;
+	float: left;s
+}
+
+a {
+	text-decoration: none;
+	color: rgb(60, 60, 60);
+}
+
+.navoptions {
+	font-family: "Lato";
+	font-weight: 700;
+	font-size: 10px;
+	letter-spacing: 3px;
+	display: inline;
+	float: right;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+
+header{
+	width: 100vw;
+}
+
+nav {
+	position: fixed;
+	z-index: 1000;
+	width: inherit;
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	top: 0;
+	margin-left: -6%;
+	padding-left: 5%;
+}
+
+#photogrid{
+	padding-top: 200px;
+	position: absolute;
+}
+
+
+.photos img{
+	
+	width: 29vw;
+	display: inline-block;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+.photos{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+#filtergrid {
+	position: relative;
+	padding-top: 200px;
+}
+
+.filter{
+	width: 29vw;
+	height: 29vw;
+	background-color: black;
+	position: relative;
+	margin-top: 0px;
+	display: inline-block;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+	text-align: center;
+	
+	line-height: 26vw;
+}
+
+.filter:hover{
+	opacity: 0.6;
+}
+
+.gridtext {
+	color: white;
+	font-family: Lato;
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+footer{
+	height: 400px;
+	margin-left: -6%;
+}
+
+footer img {
+	height: 20px;
+	width: 20px;
+	position: relative;
+	left: 50%;
+	top: 60%;
+	padding-left: 40px;
+
+}
+
+#pageBanner img {
+	width: 100vw;
+	margin-left: -5.55%;
+}
+
+#youtube {
+
+	margin-left: 5%;
+}
+
+#intro {
+	font-family: "Lato";
+	color: rgb(80, 80, 80);
+	margin-top: 120px;
+	margin-bottom: 100px;
+	text-align: center;
+	margin-left: -12%;
+}
+
+h1 {
+	font-family: "Times New Roman";
+	font-size: 50px;
+}
+
+p {
+	font-family: "Lato";
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: rgb(120, 120, 120);
+	margin-left: 5%;
+	line-height: 2;
+}
+
+#projintro{
+	font-weight: 700;
+	font-size: 12px;
+}
+
+#text {
+	max-width: 1240px;
+}
+
+
+h2 {
+	font-family: "Lato";
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: rgb(120, 120, 120);
+	margin-left: 5%;
+	font-weight: 700;
+}
+
+#mainbodytext{
+	margin-top: 100px;
+}
+
+#specificways{
+	width: 80vw;
+	margin-left: 5%;
+	margin-bottom: 40px;
+}
+
+#three {
+		margin-left: 5%;
+}
+
+#three img{
+	width: 580px;
+	display: inline-block;
+}
+
+#floatright{
+	display: inline-block;
+	float: right;
+}
+
+#imgone {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+
